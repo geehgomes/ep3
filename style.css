@@ -8,7 +8,7 @@ body{
         "rod rod rod";
     grid-gap: 5px;
     grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 1000px auto;
+    grid-template-rows: auto auto auto;
 }
 
 header{
@@ -33,7 +33,7 @@ header, aside, main, footer{
     border: black 2px solid;
     width: 300px;
     margin: 10px;
-    height: 500px; 
+    height: 500px;
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -44,7 +44,11 @@ header, aside, main, footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
+}
+.card img{
+    width: 280px;
 }
 
 
