@@ -74,6 +74,10 @@ header h2 {
     flex-wrap: wrap;
 
 }
-
+footer img {
+    width: 200px;
+    height: auto;
+    justify-content: right;
     
-
+} 
+  
