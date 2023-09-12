@@ -16,6 +16,7 @@ header{
 }
 aside{
     grid-area: sec;
+    background-color: rgb(203, 165, 240);
 }
 main{
     grid-area: pri;
@@ -80,4 +81,3 @@ footer img {
     justify-content: right;
     
 } 
-  
