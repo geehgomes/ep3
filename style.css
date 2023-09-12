@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(72, 168, 231);
+    background-color: rgb(188, 120, 202);
     background-image: url();
     display: grid;
     grid-template-areas: 
@@ -25,12 +25,12 @@ footer{
 }
 
 header, aside, main, footer{
-    background-color: rgba(144, 206, 216, 0.7);
+    background-color: rgb(255, 255, 255);
 }
 
 
 .card{
-    border: black 2px solid;
+    border: rgb(220, 152, 223) 2px solid;
     width: 300px;
     margin: 10px;
     height: 500px;
@@ -50,8 +50,30 @@ header, aside, main, footer{
 .card img{
     width: 280px;
 }
+header{
+    background-color: rgb(208, 188, 228);
+}
+header img{
+    width: 200px;
+    height: auto;
+    justify-content: center;
 
+}
+header h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
 
+}
+header h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
     
 
